@@ -1,0 +1,7 @@
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\bin\Debug\SoftServe.TriangleSort.dll.config
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\bin\Debug\SoftServe.TriangleSort.dll
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\bin\Debug\SoftServe.TriangleSort.pdb
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\obj\Debug\SoftServe.TriangleSort.csproj.CoreCompileInputs.cache
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\obj\Debug\SoftServe.TriangleSort.dll
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\obj\Debug\SoftServe.TriangleSort.pdb
+C:\Users\NoApple\Desktop\Temp\3_Task.SoftServe.TriangleSort\SoftServe.TriangleSort\obj\Debug\SoftServe.TriangleSort.csprojAssemblyReference.cache

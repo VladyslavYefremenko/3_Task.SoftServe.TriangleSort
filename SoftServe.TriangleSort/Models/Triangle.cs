@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SoftServe.TriangleSort
 {
-    class Triangle
+    public class Triangle : IComparable
     {
         private string name;
         private double lengthSideA;
@@ -16,7 +14,6 @@ namespace SoftServe.TriangleSort
         public double LengthSideA { get { return lengthSideA; } }
         public double LengthSideB { get { return lengthSideB; } }
         public double LengthSideC { get { return lengthSideC; } }
-
         public double Square { get { return square; } }
 
         public Triangle(string name, double lengthSideA, double lengthSideB, double lengthSideC)
@@ -24,11 +21,11 @@ namespace SoftServe.TriangleSort
             this.lengthSideA = lengthSideA;
             this.lengthSideB = lengthSideB;
             this.lengthSideC = lengthSideC;
-
             this.name = name;
-            name = name.Insert(0, "[");
-            name += "]";
-            square = Math.Round(SquareCalculator.calculateSquare(lengthSideA, lengthSideB, lengthSideC), 2);
+
+            Calculator calculator = new Calculator();
+
+            square = Math.Round(calculator.Square(lengthSideA, lengthSideB, lengthSideC), 2);
         }
 
         public override string ToString()
@@ -36,6 +33,19 @@ namespace SoftServe.TriangleSort
             string triangleStr = $"[{name}]: {square} cm";
 
             return triangleStr;
+        }
+
+        public int CompareTo(object obj)
+        {
+            Triangle triangle = obj as Triangle;
+            if (triangle != null)
+            {
+                return this.square.CompareTo(triangle.square);
+            }
+            else
+            {
+                throw new Exception("Faild.");
+            }
         }
     }
 }
