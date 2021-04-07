@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.TriangleSort", "SoftServe.TriangleSort\SoftServe.TriangleSort.csproj", "{F23CDBDE-295D-4447-8114-55005BF0E6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.TriangleSortView", "SoftServe.TriangleSortView\SoftServe.TriangleSortView.csproj", "{A10ACC2C-7A6C-4FDD-9A4C-DD8C3889B0F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftServe.TriangleSortViewer", "SoftServe.TriangleSortViewer\SoftServe.TriangleSortViewer.csproj", "{C4CB5332-53A6-41A8-820D-0917525539E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F23CDBDE-295D-4447-8114-55005BF0E6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23CDBDE-295D-4447-8114-55005BF0E6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23CDBDE-295D-4447-8114-55005BF0E6CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A10ACC2C-7A6C-4FDD-9A4C-DD8C3889B0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A10ACC2C-7A6C-4FDD-9A4C-DD8C3889B0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A10ACC2C-7A6C-4FDD-9A4C-DD8C3889B0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A10ACC2C-7A6C-4FDD-9A4C-DD8C3889B0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CB5332-53A6-41A8-820D-0917525539E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CB5332-53A6-41A8-820D-0917525539E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CB5332-53A6-41A8-820D-0917525539E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CB5332-53A6-41A8-820D-0917525539E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,7 @@ namespace SoftServe.TriangleSortView
         public static string ReadUserInput()
         {
             string message = "Enter triangle in format <name>,<side A>,<side B>,<side C>";
-            
+
             Console.Clear();
 
             Printer printer = new Printer();

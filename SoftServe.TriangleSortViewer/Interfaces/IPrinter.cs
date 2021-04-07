@@ -5,7 +5,5 @@
         void Message(string message);
 
         void Instraction(string filePath);
-
-
     }
 }
